@@ -14,7 +14,9 @@ for i in range (1,4):
 print("\n")
 
 #for reversed verion
-a = input("Enter the word that you want to reverse: ")
+string = input("Enter the word that you want to reverse: ")
+rev = " "
 print ("Reversed verion:", end=" ")
-for letter in a: #letter is the variable to store all the character that will be reversed
-    print(letter, end=" " )
+for ch in string:
+   rev= ch + rev 
+print(rev, end=" ")
